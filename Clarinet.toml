@@ -1,0 +1,29 @@
+[project]
+name = 'Decentralized-Energy-Trading-Platform'
+description = ''
+authors = []
+telemetry = true
+cache_dir = './.cache'
+requirements = []
+[contracts.consumption-monitoring]
+path = 'contracts/consumption-monitoring.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.energy-production]
+path = 'contracts/energy-production.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.peer-to-peer-trading]
+path = 'contracts/peer-to-peer-trading.clar'
+clarity_version = 2
+epoch = 2.5
+[repl.analysis]
+passes = ['check_checker']
+
+[repl.analysis.check_checker]
+strict = false
+trusted_sender = false
+trusted_caller = false
+callee_filter = false
