@@ -9,3 +9,7 @@ R
 "tests/peer-to-peer-trading.test.ts,4/2/42b949d620f72990e06a51aab32e2d17c8090b61
 T
 $tests/consumption-monitoring.test.ts,b/a/bab3ed5f2588d50a5f6de57fe21240f0d789a35f
+P
+ contracts/energy-production.clar,8/9/89e9543c0b30e42f45f82bf4ed486803472997ea
+O
+tests/energy-production.test.ts,4/e/4ef6ea28a1615b05fc3f83b128a8500e9c5ca97f
